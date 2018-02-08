@@ -10,6 +10,12 @@ namespace ArrayReview
     {
         static void Main(string[] args)
         {
+            //Do It 1 - top ten vacation spots, print first and last
+
+            string[] vacationSpots = { "Bali", "Dubai", "Barbados", "Paris", "Las Vegas", "Florence", "Milan", "Hong Kong", "Tokyo", "Edinburgh" };
+
+            Console.WriteLine(vacationSpots[0]);
+            Console.WriteLine(vacationSpots[9]);
         }
     }
 }
