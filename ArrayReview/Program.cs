@@ -16,6 +16,17 @@ namespace ArrayReview
 
             Console.WriteLine(vacationSpots[0]);
             Console.WriteLine(vacationSpots[9]);
+
+
+            //Do It 2 - Ages of 3 children you know, print each
+
+            int[] kidsAges = { 8, 6, 1 };
+
+            foreach (int age in kidsAges)
+            {
+                Console.WriteLine(age);
+            }
+
         }
     }
 }
