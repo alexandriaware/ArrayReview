@@ -43,6 +43,12 @@ namespace ArrayReview
 
             Console.WriteLine(studentAges[3]);
 
+
+            //Do It 5 - d&i a string array of first names. Choose a name to find and print the Index Of
+            string[] firstNames = { "Amy", "Martha", "Donna", "Rory" };
+
+            Console.WriteLine(Array.IndexOf(firstNames, "Rory"));
+
         }
     }
 }
