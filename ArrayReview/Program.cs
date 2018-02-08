@@ -32,8 +32,16 @@ namespace ArrayReview
 
             string[] daysOfWeek = { "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday" };
 
+
             //Do It 4 - Declare and initialize an array of 5 student ages using the 'new' keyword
             int[] studentAges = new int[5];
+            studentAges[0] = 19;
+            studentAges[1] = 22;
+            studentAges[2] = 34;
+            studentAges[3] = 25;
+            studentAges[4] = 28;
+
+            Console.WriteLine(studentAges[3]);
 
         }
     }
